@@ -1,7 +1,7 @@
 # NBA-Final Home Team Wins Predictive Model 
 
 **Jonny Tesfahun**
-
+![My Image](https://github.com/Jonny-T87/NBA-Trends/blob/main/58428defa6515b1e0ad75ab4.png)
 # Trends in NBA Home Team Wins:
 ## The analysis of NBA Finals statistics which are likely to lead a Home Team to Win
 
@@ -48,7 +48,7 @@ All of the 4 different models (Logistic Regression & Decision Tree Classifier) w
 The best model out of my analysis was the tuned Logistic Regression with no PCA. Slight tuning of each model hyperparameters was able to increase data prediction accuracy and lower overfitting of the data. The accuracy on the testing data had a little increase over the previous model and was 60.02%. The F1 score was slightly lower than the previous model with 73.57%, also the Recall was slightly lower at 93.55%. However, the small increase in Accuracy made-up for this. 
 
 #### Visual 1 - Home Points Scored per Season Vs. Wins & Losses
-![My Image](https://github.com/Jonny-T87/NBA-Trends/blob/main/nba_trends.png)
+![My Image](https://github.com/Jonny-T87/NBA-Trends/blob/main/home_points_win.png)
 > "Home Team Points consistently increasing over the seasons which shows is tightly correlated to Home Team Wins. 
 In 2010 and 2014, Home Points Scored were less likely to lead to Home Team Wins than any other season."
 > 
@@ -67,9 +67,11 @@ This Model and the Parameters together would solve many complex NBA Statistic pr
 
 ## Recommendations:
 
-From the information above, Logistic Regression slightly outperformed Decision Tree Classifier using Grid Search. Many changes can be made to parameters or inputs to increase Accuracy but the cost may be CPU performance. A recommendation for future models with this type of prediction, would be to utilize Randomized Search CV. This would help in finding the best hyperparameters and inputs for the most accurate possible prediction of Home Team Win.
+- Increase amount of losing team data. Current model only has 41% of losing team data. That would make model more accurate in predicting losses.
 
-I would also recommend PCA not be used in the models. This would also avoid losing key features in the data that are correlated to the target. In addition, more data can be added if overfitting is still a concern. 
+- From the information above, Logistic Regression slightly outperformed Decision Tree Classifier using Grid Search. Many changes can be made to parameters or inputs to increase Accuracy but the cost may be CPU performance. A recommendation for future models with this type of prediction, would be to utilize Randomized Search CV. This would help in finding the best hyperparameters and inputs for the most accurate possible prediction of Home Team Win.
+
+- I would also recommend PCA not be used in the models. This would also avoid losing key features in the data that are correlated to the target. In addition, more data can be added if overfitting is still a concern. 
 
 
 ### For further information
