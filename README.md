@@ -49,14 +49,13 @@ The best model out of my analysis was the tuned Logistic Regression with no PCA.
 
 #### Visual 1 - Home Points Scored per Season Vs. Wins & Losses
 ![My Image](https://github.com/Jonny-T87/NBA-Trends/blob/main/nba_trends.png)
-
-> "
+> "Home Team Points consistently increasing over the seasons which shows is tightly correlated to Home Team Wins. 
+In 2010 and 2014, Home Points Scored were less likely to lead to Home Team Wins than any other season."
 > 
-#### Visual 2 - Actual Home Points Scored per Season vs Avg. Home Points Scored per Season
-![My Image](https://github.com/Jonny-T87/NBA-Trends/blob/main/nba_trends_2_points.png)
-
-> "
-
+#### Visual 2 - 3pt FG% per Season
+![My Image](https://github.com/Jonny-T87/NBA-Trends/blob/main/3pt_home.png)
+> "This graph shows that since 2007, teams who shoot greater than 36% at 3pt Field Goal Percentage were 70.6% more likely to win the Home Game." 
+>
 
 ## Model
 
