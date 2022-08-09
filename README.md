@@ -61,6 +61,10 @@ In 2010 and 2014, Home Points Scored were less likely to lead to Home Team Wins 
 
 The tuned Logistic Regression with no PCA model was the best. Slight tuning of each model hyperparameters was able to increase data prediction accuracy and lower overfitting of the data. The parameters used were C=0.1, max_iter = 1000, solver = 'liblinear', penalty = 'l1'. With these parameters, the accuracy on the testing data had a good increase over the previous model and was 60.02%. The F1 score was slightly lower than the previous model with 73.57%, also the Recall was slightly lower at 93.55%. However, the small increase in Accuracy made-up for this. The Precision score was 60.62% which was one of the highest out of all the models.
 
+#### Visual 3 - Accuracy Results
+![My Image](https://github.com/Jonny-T87/NBA-Trends/blob/main/Images/model_result.png)
+> "This graph shows that model haa 60.02% accuracy on predicting Home Team Wins." 
+>
 In addition, Grid Search CV was also used on the Logistic Regression model without PCA. However, Grid Search did not out perform the above model. 
 
 This Model and the Parameters together would solve many complex NBA Statistic problems. For Instance, increasing the playing style of team to induce more Home Assist and 3pt FG% which in turn leads to more Home Team Wins. These Home Team Wins can help the team create a bigger fan base and sale more home tickets at higher prices. 
